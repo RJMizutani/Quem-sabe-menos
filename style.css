@@ -1,17 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
 body {
     background-color: rgb(101, 134, 132);
     font-family: Arial, sans-serif;
   }
 
-  header {
+  h1{
+    text-align: center;
+    }
+
+    h2{
+        margin: 0 auto 40px auto;
+    }
+
+  .menu{
     background-color: #333;
     color: #fff;
     padding: 20px;
-  }
-  
-  h1{
-  text-align: center;
-  border: 1px solid red;
+    border-radius: 8px;
   }
 
   nav {
@@ -27,22 +37,35 @@ body {
   main {
     padding: 20px;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 60px auto;
   }
 
+  .apresentacao{
+    margin: 20px;
+  }
+
+  .apresentacao2{
+    margin: 20px;
+  }
+
+  .txtbotao{
+    margin: 10px;
+    font-size: 18px;
+  }
 
   
   #question {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 20px;
-    color: #333;
+    margin: 25px;
+    color: rgb(255, 255, 255);
   }
   
   #answers {
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
   }
   
   .answer {
@@ -54,6 +77,8 @@ body {
     cursor: pointer;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border: 2px solid transparent;
+
+    margin: 10px auto 150px auto;
   }
   
   .answer:hover {
@@ -73,11 +98,13 @@ body {
     color: #fff;
   }
 
+
+
   .button {
     display: inline-block;
     background-color: #333;
     color: #fff;
-    padding: 10px 20px;
+    padding: 15px 20px;
     border-radius: 4px;
     text-decoration: none;
   }
@@ -86,10 +113,57 @@ body {
     background-color: #444;
   }
 
+.botaoiniciar,button{
+    padding: 15px 25px;
+}
+
+  /* footer */
+  /* footer */
+  /* footer */
+  /* footer */
+
   footer {
-    background-color: #eee;
-    color: #333;
-    text-align: center;
-    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+    margin: 0;
   }
   
+  .container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .left,
+  .center,
+  .right {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  h3 {
+    margin: 20px 0 10px 0;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline
+  }
